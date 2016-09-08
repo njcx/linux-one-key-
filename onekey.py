@@ -89,10 +89,10 @@ kkkkkkkk    kkkkkkk eeeeeeeeeeeeee       y:::::y
 					elif repo == "3":
 						inicio1()
 					elif repo == "2":
-						cmd1 = os.system("apt-get install -y --allow-unauthenticated gparted gdebi bleachbit gedit fcitx-sunpinyin fcitx-googlepinyin fcitx-module-cloudpinyin fcitx fcitx-config-common fcitx-config-gtk vlc python-pip python3-pip vim mysql-server mysql-client apache2 ")
-						cmd2 = os.system("apt-get install -y --allow-unauthenticated eclipse qemu-kvm libvirt-bin virt-manager bridge-utils labyrinth smplayer amarok chromium-browser filezilla putty git spyder ninja idle-python3.5 idle-python2.7 emacs spe eric spyder3 php7.0 libapache2-mod-php7.0 php7.0-mysql")
+						cmd1 = os.system("apt-get install -y --allow-unauthenticated gparted shutter gdebi bleachbit gedit fcitx-sunpinyin fcitx-googlepinyin fcitx-module-cloudpinyin fcitx fcitx-config-common kchmviewer synaptic software-center fcitx-config-gtk vlc python-pip python3-pip vim mysql-server mysql-client apache2 ")
+						cmd2 = os.system("apt-get install -y --allow-unauthenticated eclipse qemu-kvm libvirt-bin virt-manager bridge-utils labyrinth smplayer amarok chromium-browser filezilla putty git spyder ninja-ide idle-python3.5 idle-python2.7 emacs spe eric spyder3 php7.0 fbreader vym semantik filelight visualvm mysql-workbench arduino codeblocks libapache2-mod-php7.0 php7.0-mysql")
 						cmd3 = os.system("apt-get install -y --allow-unauthenticated pepperflashplugin-nonfree ")
-						cmd4 = os.system("update-pepperflashplugin-nonfree --install")
+						cmd4 = os.system("update-pepperflashplugin-nonfree --install&&cp libflashplayer.so /usr/lib/firefox/browser/plugins&&dpkg -i lantern-installer-beta-64-bit.deb&&apt-get -f install -y&&dpkg -i kwplayer_3.5.2-1_all.deb&&apt-get -f install -y&&dpkg -i sogoupinyin_2.0.0.0078_amd64.deb&&apt-get -f install -y")
 					print ("\033[1;31mSorry, that was an invalid command!\033[1;m")
 
 
